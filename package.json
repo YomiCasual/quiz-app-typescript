@@ -1,4 +1,5 @@
 {
+  "homepage": "https://yomicasual.github.io/quiz-appp/",
   "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
@@ -10,9 +11,14 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.4",
+    "deploy": "gh-pages -d build",
+    "gh-pages": "^3.1.0",
+    "predeploy": "npm run build",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "styled-components": "^5.2.1",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
